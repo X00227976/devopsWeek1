@@ -1,4 +1,9 @@
 #!/bin/bash
+
 for ((n=1; n<=10; n++)); do
-    echo $n
+    if [ "$n" -eq 10 ]; then
+        echo "TEN"
+    else
+        echo "$n"
+    fi
 done
