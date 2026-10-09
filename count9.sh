@@ -1,4 +1,4 @@
 #!/bin/bash
-for ((n=1; n<=9; n++)); do
+for ((n=1; n<=10; n++)); do
     echo $n
 done
